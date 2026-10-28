@@ -1,5 +1,5 @@
 # Single subject task fMRI
-Please note this is a learning project, and does not report scientific findings.
+Please note this is a learning project, and does not constitute for established and verified scientific findings.
 
 Description: I conducted an end-to-end analysis of one participant (sub-1004) from the OpenNeuro dataset ds006039, Category-specific Associative Inference in Memory.
 

@@ -17,17 +17,11 @@ Each block has study (n=16) and test(n=24) trials, AC trials only included in th
 Workflow:
 Preprocessing using SPM (standalone version 26.10.01)
 Realignment: Estimate and reslice, register to mean, 8 sessions x 188 frames; 6 motion parameters per run
-
 ↓
-
 Coregistration:  T1w and functional image 1 from task run 1
-
 ↓
-
 Segmentation: T1w segmentation; forward (and inverse) deformation fields
-
 ↓
-
 Normalisation: Functional images written to MNI space at 1.7 mm
 References: 
 1. Andy’s Brain Book on SPM
@@ -35,17 +29,11 @@ References:
 
 Data analysis with Nilearn in Python
 Motion QC: Framewise displacement (Power et al., 2012), summarised per run
-
 ↓
-
 Atlas overlay: Schaefer 2018, 100 parcels; detrend, 128 s high-pass, z-score, motion regressors; per run
-
 ↓
-
 First level GLM: Face and Scene, one event table per run
-
 ↓
-
 Exploratory Ward Parcellation fitted on the functional data
 References:
 1. Handbook of Functional MRI (Poldrack et al)
